@@ -11,8 +11,8 @@ keyTextArea = tk.Text(window, height = 4, width = 70)
 textLabel = tk.Label(window, text = "Text:")
 inputTextArea = tk.Text(window, height = 4, width = 70)
 
-codeButton = tk.Button(window, text = "Code", command = lambda : core.codeCommand(keyTextArea, inputTextArea, resultTextArea))
-decodeButton = tk.Button(window, text = "Decode", command = lambda : core.decodeCommand(keyTextArea, inputTextArea, resultTextArea))
+codeButton = tk.Button(window, text = "Code", command = lambda : core.code_command(keyTextArea, inputTextArea, resultTextArea))
+decodeButton = tk.Button(window, text = "Decode", command = lambda : core.decode_command(keyTextArea, inputTextArea, resultTextArea))
 
 resultTextArea = tk.Text(window, height = 4, width = 70)
 
